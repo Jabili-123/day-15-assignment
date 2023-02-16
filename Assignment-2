@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{ float n=1.00;
+for(int i=1;i<=10;i++) 
+{ 
+    printf("%d %.2f\n",i,n);
+    n+=0.10; 
+    
+}
+    return 0; 
+    
+}
