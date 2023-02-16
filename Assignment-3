@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h> 
+int main() 
+{ 
+    int x,y,res=0; 
+    printf("\n Enter x value: ");
+    scanf("%d",&x);
+    printf("\n Enter y value: "); 
+    scanf("%d",&y);
+    res=pow(x,y); 
+    printf("\n Your Answer: %d",res); 
+    return 0; 
+    
+}
